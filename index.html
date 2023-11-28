@@ -1111,7 +1111,9 @@
         </div>
       </div>
 
-    </section><!-- End Clients Section -->
+    </section>
+    
+    <!-- End Clients Section -->
 
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-blog-posts" class="recent-blog-posts">
@@ -1273,8 +1275,8 @@
               <img src="assets/img/logo.png" alt="">
               <span>Buildup</span>
             </a>
-            <p>We are a startup online company offering freelancer recruitment services in the construction sector. Users can sign up
-              as Candidates, Clients/Employers or Suppliers, depending on where their ability lies.</p>
+            <p>We are a startup online company offering contractor recruitment services in the construction sector. Users can sign up
+              as Contractors, Clients/Employers or Suppliers, depending on where their ability lies.</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
               <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -1323,7 +1325,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Buildup</span></strong>. 2023. All Rights Reserved
+        &copy; Copyright <strong><span>Buildup</span></strong>. <b class="yr"></b> All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -1348,7 +1350,11 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script type="text/javascript">
+    window.onload = () => {
+      document.querySelector(".yr").textContent = new Date().getFullYear();
+    }
+  </script>
 </body>
 
 </html>
