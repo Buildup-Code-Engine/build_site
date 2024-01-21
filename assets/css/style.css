@@ -1108,6 +1108,7 @@ section {
   background: white;
   border-radius: 50px;
   padding: 2px 15px;
+  border-radius: 25px;
 }
 
 .portfolio #portfolio-flters li {
