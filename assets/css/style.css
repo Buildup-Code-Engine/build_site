@@ -630,7 +630,7 @@ section {
 }
 
 .values .box img {
-  padding: 10px 20px;
+  padding: 30px 50px;
   transition: 0.5s;
   transform: scale(1.1);
 }
