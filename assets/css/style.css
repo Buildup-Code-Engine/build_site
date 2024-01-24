@@ -642,12 +642,13 @@ section {
   font-weight: 500;
   margin-bottom: 15px;
   font-size: 32px;
-  font-weight: bold;
+  
 }
 
 .values .icon-box h4 a {
   color: #37517e;
   transition: ease-in-out 0.3s;
+  font-weight: bold;
 }
 
 .values .icon-box p {
