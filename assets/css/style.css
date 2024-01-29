@@ -578,6 +578,7 @@ section {
 .about .content {
   background-color: #f6f9ff;
   padding: 40px;
+  border-radius: 25px;
 }
 
 .about h3 {
