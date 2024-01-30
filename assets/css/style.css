@@ -1661,6 +1661,7 @@ section {
   background: #fafbff;
   padding: 30px;
   height: 100%;
+  border-radius: 10px;
 }
 
 .contact .php-email-form .error-message {
@@ -1671,6 +1672,7 @@ section {
   padding: 15px;
   margin-bottom: 24px;
   font-weight: 600;
+  border-radius: 10px;
 }
 
 .contact .php-email-form .sent-message {
